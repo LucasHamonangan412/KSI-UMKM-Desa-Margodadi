@@ -1,10 +1,12 @@
 # KSI - Website UMKM Desa Margodadi
-## Repositori GitHub Kelompok 6 - Kapita Selekta Informatika (2024), Institut Teknologi Sumatera.
-<br><br>
-Lokasi   : Desa Margodadi, Kec. Jati Agung Kab, Lampung Selatan<br>
-Program  : Pembuatan _website_ pemasaran produk bagi UMKM di Desa Margodadi<br>
-SDGs     : No. 9. Infrastruktur, Industri dan Inovasi<br>
+ > Repositori GitHub Kelompok 6 - Kapita Selekta Informatika (2024), Institut Teknologi Sumatera.
 <br>
+
+Lokasi &emsp; : Desa Margodadi, Kec. Jati Agung Kab, Lampung Selatan<br>
+Program &nbsp;: Pembuatan _website_ pemasaran produk bagi UMKM di Desa Margodadi<br>
+SDGs &emsp; &nbsp; : No. 9. Infrastruktur, Industri dan Inovasi<br>
+<br>
+
 <p align="justify"">
 Setelah melakukan survey langsung ke Desa Margodadi didapati bahwa di desa ini terdapat beberapa UMKM yang memiliki potensi untuk berkembang lebih jauh. Masalah UMKM di desa margodadi secara general terdapat di strategi pemasaran produk, mayoritas UMKM Desa Margodadi masih mengandalkan cara konvensional seperti pemasangan banner di depan toko dan informasi dari mulut ke mulut, penggunaan teknologi internet oleh mayoritas UMKM terbatas pada penggunaan sosial media seperti WhatsApp, Instagram, dan Facebook. Oleh karena itu kami ingin mengangkat isu strategi pemasaran produk dari UMKM di Desa Margodadi sebagai masalah utama dari proyek yang kami jalankan.
 </p>
@@ -22,7 +24,7 @@ Dengan membuat _website_ pemasaran produk akan membuat lingkup pemasaran produk 
 |Christopher Benaya Tampubolon|122140090|[GitHub](https://github.com/gargoylme)|
 |Abraham Ganda Boas Napitu|122140095|[GitHub](https://github.com/Brammzz)|
 |Martua Kevin Andreas Mual H.Lubis|122140119|[GitHub](https://github.com/martua122140119)|
-|Dyo Dwi Carol Bukit|122140145|[GitHub]()|
+|Dyo Dwi Carol Bukit|122140145|[GitHub](https://github.com/DyoBukit)|
 |Muhammad Nelwan Fakhri|122140173|[GitHub](https://github.com/shrxxxk)|
 |Lucas Hamonangan Simaremare|122140196|[GitHub](https://github.com/lucashmnn)|
 |Raditya Erza Farandi|122140209|[GitHub](https://github.com/svernykh)|
