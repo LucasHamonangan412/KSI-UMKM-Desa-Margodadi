@@ -22,7 +22,7 @@ Dengan membuat website pemasaran produk akan membuat lingkup pemasaran produk da
 |----|----|----|
 |Andreas AlfIn Yoga Utama|122140088|[GitHub](https://github.com/Andreas122140088)|
 |Christopher Benaya Tampubolon|122140090|[GitHub](https://github.com/gargoylme)|
-|$${\color{red}Abraham \space Ganda \space Boas \space Napitu}$$|122140095|[GitHub](https://github.com/Brammzz)|
+|Abraham Ganda Boas Napitu|122140095|[GitHub](https://github.com/Brammzz)|
 |Martua Kevin Andreas Mual H.Lubis|122140119|[GitHub](https://github.com/martua122140119)|
 |Dyo Dwi Carol Bukit|122140145|[GitHub](https://github.com/DyoBukit)|
 |Muhammad Nelwan Fakhri|122140173|[GitHub](https://github.com/shrxxxk)|
