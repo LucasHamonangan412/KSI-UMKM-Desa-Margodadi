@@ -134,6 +134,7 @@
   
   
   /* Desa Section */
+
   .desa-section {
     display: flex;
     justify-content: center;
@@ -152,8 +153,8 @@
   }
   
   .desa-image img {
-    width: 100%;
-    max-width: 400px;
+    width: 150%;
+    max-width: 300px;
     border-radius: 10px;
   }
   
@@ -209,27 +210,32 @@
   }
   
   .umkm-text h2 {
+    font-family: 'Poppins';
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
+    margin-left: 400px; /* Menggeser teks ke kanan */
+    margin-right: -350px; /* Menggeser teks ke kiri jika dibutuhkan */
   }
   
   .umkm-text p {
+    font-family: 'Poppins';
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.6; /* Menambahkan line-height agar teks lebih mudah dibaca */
     color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .button-group {
-    display: flex;
-    gap: 15px;
-  }
+    margin-bottom: 40px;
+    text-align: justify; /* Meratakan teks ke kiri dan kanan */
+    margin-left: 400px; /* Menggeser teks ke kanan */
+    margin-right: -350px; /* Menggeser teks ke kiri jika dibutuhkan */
+}
   
   .umkm-image img {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
+    display: flex;
+    margin-top: -320px;
+    margin-left: 880px;
   }
   
 
