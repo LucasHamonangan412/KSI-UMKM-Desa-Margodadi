@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMKM Desa Margodadi</title>
+  <link rel="stylesheet" href="/(FE)/css/Landingpage1.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="/resources/assets/logo desa.jpg" class="logo">
+      <span class="site-name">UMKM DESA MARGODADI</span>
+    </div>
+    <div class="navbar-center">
+      <a href="#about">ABOUT</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#product">PRODUCT</a>
+      <a href="#expertise">EXPERTISE</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#blog">BLOG</a>
+    </div>
+  </div>
+
+  <div class="main-section" id="product">
+    <div class="main-content">
+      <h2>PRODUK UMKM</h2>
+      <h2>DESA MARGODADI</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+      <button class="view-more-button">Get a Quote</button>
+      <button class="learn-more-button">Selengkapnya</button>
+    </div>
+    
+    <div class="main-images">
+      <div class="purple-box"></div>
+      <div class="overlay-box"></div>
+    </div>
+  </div>
+    
+  <section class="about-section" id="portfolio">
+    <h3>Tentang UMKM</h3>
+    <p>Tentang UMKM desa: Kami adalah komunitas yang berfokus untuk meningkatkan kualitas hidup masyarakat melalui produk lokal yang berkualitas...</p>
+    <img src="/resources/assets/rengginang.jpeg" class="about-image">
+  </section>
+
+  <section class="partnership-section" id="expertise">
+  <div class="partnership-content">
+    <h2>Partnership for Agencies</h2>
+    <p>A reliable coding partner that delivers solutions to your business challenges and stays by your side in the long term. Having the whole spectrum of web development expertise, we are here to take care of your projects while making it possible for you to focus on growing your own business.</p>
+    <button class="partnership-button">Partnership Details</button>
+  </div>
+  <div class="partnership-image">
+    <img src="/Gambar/partnership.jpg" alt="Partnership Meeting" class="meeting-image">
+  </div>
+  </section>
+
+  <section class="testimonial-section">
+  <div class="testimonial-header">
+    <h3>TESTIMONIALS</h3>
+    <h2>See how our clients feel about us.</h2>
+  </div>
+  <div class="testimonial-content">
+    <div class="testimonial-card">
+      <p>"Working with the PETROMO team has been a huge success! They're good people who care deeply about our business!"</p>
+      <h4>John Doe</h4>
+      <span>CEO, Leonard Technologies</span>
+    </div>
+  </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>UMKM Desa Margodadi</h3>
+        <p>UMKM Desa Margodadi bertujuan untuk mendukung usaha mikro di desa kami dengan menyediakan produk berkualitas dan pelayanan yang terbaik. Kami terus berkembang untuk memberikan kontribusi yang positif bagi masyarakat.</p>
+      </div>
+
+      <div class="footer-links">
+      <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><img src="/Gambar/facebook_icon.png" alt="Facebook"></a>
+        <a href="#"><img src="/Gambar/twitter_icon.png" alt="Twitter"></a>
+        <a href="#"><img src="/Gambar/instagram_icon.png" alt="Instagram"></a>
+        <a href="#"><img src="/Gambar/linkedin_icon.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 UMKM Desa Margodadi. All rights reserved.</p>
+  </div>
+  </footer>
+
+  <script>
+    document.addEventListener("scroll", function() {
+      const navbarLinks = document.querySelectorAll(".navbar-center a");
+      const sections = document.querySelectorAll("section, .main-section");
+      let currentSection = "";
+  
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) {
+          currentSection = section.getAttribute("id");
+        }
+      });
+  
+      navbarLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${currentSection}`) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+  
+  
+
+
+</body>
+</html>
