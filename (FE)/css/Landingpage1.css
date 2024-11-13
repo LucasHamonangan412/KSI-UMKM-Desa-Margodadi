@@ -210,6 +210,17 @@
     color: #000000;
   }
 
+  .all-produk{
+    padding: 10px 50px;
+    border: seagreen;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 665px;
+  }
+
   .footer {
     background-color: #333;
     color: #fff;
@@ -224,26 +235,16 @@
     gap: 30px;
   }
 
-  .footer-about {
-    max-width: 400px;
-  }
-
   .footer-about h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
     margin-left: 50px;
   }
 
-  .footer-about p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #ccc;
-    text-align: justify;
-  }
-
-  .footer-links h4{
+  .footer-links h3{
     font-size: 1.2rem;
     margin-bottom: 10px;
+    text-align: left;
   }
 
   .footer-links ul {
@@ -272,7 +273,6 @@
     display: flex;
     gap: 20px;
   }
-
 
   .footer-social h4{
     font-size: 1.2rem;
