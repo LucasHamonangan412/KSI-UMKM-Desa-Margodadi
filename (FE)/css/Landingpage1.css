@@ -190,7 +190,13 @@
   }
 
   .heart{
+    position: absolute;
     display: flex;
+    cursor: pointer;
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
   }
 
   .product-card h2 {
@@ -199,8 +205,8 @@
   }
 
   .product-card p {
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
     color: #000000;
   }
 
